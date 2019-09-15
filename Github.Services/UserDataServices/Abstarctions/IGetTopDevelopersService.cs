@@ -1,4 +1,4 @@
-﻿using Github.DataLayer.GitApiModels;
+﻿using Github.DataLayer.NewsModels.Develops;
 using Github.Repository;
 using System;
 using System.Collections.Generic;
@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 
 namespace Github.Services.Abstarctions
 {
-   public interface IGetTopReposService
+    public interface IGetTopDevelopersService
     {
-        Task<List<Repo>> GetRepos(string language, TimePeriod since);
-
+        Task<List<Developer>> GetDevelopers(string language, TimePeriod since);
     }
 }

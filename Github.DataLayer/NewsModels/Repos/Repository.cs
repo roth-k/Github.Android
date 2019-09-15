@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Github.DataLayer.NewsModels.Repos
 {
-    public class Repository
+    public class Reposit
     {
         [JsonProperty("author")]
         public string Author { get; set; }

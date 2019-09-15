@@ -94,6 +94,20 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Android.Support.Design" Version="27.0.2.1" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Github.DataLayer\Github.DataLayer.csproj">
+      <Project>{F3788D3C-5CAC-4C41-939F-EEC96B4BFA1C}</Project>
+      <Name>Github.DataLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Github.Repository\Github.Repository.csproj">
+      <Project>{C358AFFF-6A5C-4342-A186-6ECC2B92BA7A}</Project>
+      <Name>Github.Repository</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Github.Services\Github.Services.csproj">
+      <Project>{0B5D240A-7FB2-4965-BC75-F2A562D74DFD}</Project>
+      <Name>Github.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
     Other similar extension points exist, see Microsoft.Common.targets.

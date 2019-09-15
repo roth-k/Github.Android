@@ -30,20 +30,22 @@ namespace Github.Repository
             {
                 using (var client = new HttpClient())
                 {
-                    client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Token", ApiManager.Instance.Token);
-                    client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("Github.Repository", "1.0.0"));
+                
+                client.DefaultRequestHeaders.UserAgent.Add(new ProductInfoHeaderValue("Github.Repository", "1.0"));
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Token", ApiManager.Instance.Token);
+                   
                     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
-                    return await client.GetStringAsync(url);
-
+                   var res= await client.GetStringAsync(url);
+                    return res;
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 return null;
             }
-          
+
         }
     }
 }

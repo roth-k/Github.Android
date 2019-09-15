@@ -5,11 +5,13 @@ VisualStudioVersion = 15.0.28307.271
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Github.Android", "Github.Android\Github.Android.csproj", "{CEF41ECC-0DAB-4624-B88D-A74A9536E720}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Github.DataLayer", "Github.DataLayer\Github.DataLayer.csproj", "{F3788D3C-5CAC-4C41-939F-EEC96B4BFA1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Github.DataLayer", "Github.DataLayer\Github.DataLayer.csproj", "{F3788D3C-5CAC-4C41-939F-EEC96B4BFA1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Github.Repository", "Github.Repository\Github.Repository.csproj", "{C358AFFF-6A5C-4342-A186-6ECC2B92BA7A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Github.Repository", "Github.Repository\Github.Repository.csproj", "{C358AFFF-6A5C-4342-A186-6ECC2B92BA7A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Github.Services", "Github.Services\Github.Services.csproj", "{0B5D240A-7FB2-4965-BC75-F2A562D74DFD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Github.Services", "Github.Services\Github.Services.csproj", "{0B5D240A-7FB2-4965-BC75-F2A562D74DFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceTests", "ServiceTests\ServiceTests.csproj", "{215FD6B6-8B06-4B1E-9602-E2A5D133338D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{0B5D240A-7FB2-4965-BC75-F2A562D74DFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B5D240A-7FB2-4965-BC75-F2A562D74DFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B5D240A-7FB2-4965-BC75-F2A562D74DFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215FD6B6-8B06-4B1E-9602-E2A5D133338D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215FD6B6-8B06-4B1E-9602-E2A5D133338D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215FD6B6-8B06-4B1E-9602-E2A5D133338D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215FD6B6-8B06-4B1E-9602-E2A5D133338D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
