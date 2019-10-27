@@ -19,9 +19,9 @@ namespace Github.Repository
                     return await wc.DownloadStringTaskAsync(url);
                 }
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                return null;
+                throw ex;
             }
         }
         public async Task<string> DownloadDataAsync(string url)

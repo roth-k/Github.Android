@@ -11,6 +11,7 @@ using Android.Util;
 using Android.Views;
 using Android.Widget;
 using V4Fragment = Android.Support.V4.App.Fragment;
+
 namespace Github.Android.Fragments
 {
     public class TopReposFragment : V4Fragment
@@ -24,8 +25,8 @@ namespace Github.Android.Fragments
 
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
         {
-           
-            return inflater.Inflate(Resource.Layout.top_reos_fragment, container, false);
+          
+            return inflater.Inflate(Resource.Layout.top_repos_fragment, container, false);
         }
     }
 }
