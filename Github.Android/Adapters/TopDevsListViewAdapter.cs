@@ -16,17 +16,17 @@ using uri = Android.Net.Uri;
 namespace Github.Android.Adapters
 {
    
-    public class ListViewAdapter : BaseAdapter
+    public class ListVieTopDevsListViewAdapterAdapter : BaseAdapter
     {
         private Activity activity;
         private List<Developer> devs;
         Context context;
         static int pos = 0;
-        public ListViewAdapter(Context context)
+        public ListVieTopDevsListViewAdapterAdapter(Context context)
         {
             this.context = context;
         }
-        public ListViewAdapter(Activity activity, List<Developer>devs)
+        public ListVieTopDevsListViewAdapterAdapter(Activity activity, List<Developer>devs)
         {
             this.activity = activity;
             this.devs = devs;

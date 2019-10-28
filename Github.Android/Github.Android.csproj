@@ -56,7 +56,8 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Adapters\ListViewAdapter.cs" />
+    <Compile Include="Adapters\TopDevsListViewAdapter.cs" />
+    <Compile Include="Adapters\TopReposListViewAdapter.cs" />
     <Compile Include="Fragments\NewsFragment.cs" />
     <Compile Include="Fragments\TopDevsFragment.cs" />
     <Compile Include="Fragments\TopReposFragment.cs" />
@@ -138,6 +139,11 @@
       <Project>{0B5D240A-7FB2-4965-BC75-F2A562D74DFD}</Project>
       <Name>Github.Services</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\top_repos_listview_item.axml">
+      <SubType>Designer</SubType>
+    </AndroidResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it.

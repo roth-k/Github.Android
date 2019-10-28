@@ -2612,8 +2612,8 @@ namespace Github.Android
 			// aapt resource value: 0x7f080061
 			public const int list_item = 2131230817;
 			
-			// aapt resource value: 0x7f0800b4
-			public const int masked = 2131230900;
+			// aapt resource value: 0x7f0800b6
+			public const int masked = 2131230902;
 			
 			// aapt resource value: 0x7f0800a1
 			public const int media_actions = 2131230881;
@@ -2630,20 +2630,23 @@ namespace Github.Android
 			// aapt resource value: 0x7f080028
 			public const int multiply = 2131230760;
 			
+			// aapt resource value: 0x7f0800b4
+			public const int name = 2131230900;
+			
 			// aapt resource value: 0x7f08008d
 			public const int navigation = 2131230861;
 			
-			// aapt resource value: 0x7f0800b6
-			public const int navigation_dashboard = 2131230902;
+			// aapt resource value: 0x7f0800b8
+			public const int navigation_dashboard = 2131230904;
 			
 			// aapt resource value: 0x7f080095
 			public const int navigation_header_container = 2131230869;
 			
-			// aapt resource value: 0x7f0800b5
-			public const int navigation_home = 2131230901;
-			
 			// aapt resource value: 0x7f0800b7
-			public const int navigation_notifications = 2131230903;
+			public const int navigation_home = 2131230903;
+			
+			// aapt resource value: 0x7f0800b9
+			public const int navigation_notifications = 2131230905;
 			
 			// aapt resource value: 0x7f08003b
 			public const int never = 2131230779;
@@ -2686,6 +2689,9 @@ namespace Github.Android
 			
 			// aapt resource value: 0x7f080075
 			public const int radio = 2131230837;
+			
+			// aapt resource value: 0x7f0800b3
+			public const int repo_list = 2131230899;
 			
 			// aapt resource value: 0x7f08004a
 			public const int right = 2131230794;
@@ -2882,8 +2888,8 @@ namespace Github.Android
 			// aapt resource value: 0x7f080016
 			public const int view_offset_helper = 2131230742;
 			
-			// aapt resource value: 0x7f0800b3
-			public const int visible = 2131230899;
+			// aapt resource value: 0x7f0800b5
+			public const int visible = 2131230901;
 			
 			// aapt resource value: 0x7f08003c
 			public const int withText = 2131230780;
@@ -3141,6 +3147,9 @@ namespace Github.Android
 			
 			// aapt resource value: 0x7f040040
 			public const int top_repos_fragment = 2130968640;
+			
+			// aapt resource value: 0x7f040041
+			public const int top_repos_listview_item = 2130968641;
 			
 			static Layout()
 			{

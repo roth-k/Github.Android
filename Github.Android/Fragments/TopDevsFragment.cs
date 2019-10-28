@@ -26,12 +26,10 @@ namespace Github.Android.Fragments
             base.OnCreate(savedInstanceState);
             
             list = await new GetTopDeveloersService().GetDevelopers("C#", TimePeriod.daily);
-            var prog = new ProgressBar(view.Context);
-            prog.Animate();
-
+          
 
             var listview = view.FindViewById<ListView>(Resource.Id.devs_list);
-            var adapter = new ListViewAdapter(this.Activity, list);
+            var adapter = new ListVieTopDevsListViewAdapterAdapter(this.Activity, list);
 
             listview.Adapter = adapter;
             
